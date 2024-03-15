@@ -1,3 +1,3 @@
 line = input('Enter any string: ')
 result = line.title()
-print(result)
+print(f'Titled string: {result}')
