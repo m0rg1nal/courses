@@ -1,6 +1,4 @@
-line = input('Enter any string: ')
-line2 = input('Enter any string: ')
-if line == line2:
-    print('Strings are identical')
-else:
-    print('Strings are not identical')
+line1 = input("Enter first string: ")
+line2 = input("Enter second string: ")
+
+print(f"Is string {line1} and string {line2} the same? - {first == second}")
