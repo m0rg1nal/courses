@@ -5,3 +5,4 @@ for i in range(1, height):
     height -= 1
 
 print('dsf', 'sdf')
+print('dsf', 'sdf')
