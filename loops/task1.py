@@ -1,8 +1,7 @@
-height = 6
-for i in range(1, height):
-    print(height * ' ', '* ' * i)
-    print(' ' * i)
-    height -= 1
+numbers = [1, 2, 3, 5, 7, 8, 354, 456, 234, 654, 758, 324, 573, 543, 9, 10]
+divider = float(input('Enter any number as a divider: '))
+divided = []
 
-print('dsf', 'sdf')
-print('dsf', 'sdf')
+for i in numbers:
+    if i % divider == 0:
+        print(i)
